@@ -1,0 +1,25 @@
+{
+  "extends": ["prettier"],
+  "plugins": ["prettier"],
+  "env": {
+    "node": true
+  },
+  "parserOptions": {
+    "ecmaVersion": 2015
+  },
+  "rules": {
+    "camelcase": 0,
+    "no-param-reassign": "warn",
+    "max-len": ["warn", 160],
+    "indent": ["error", 2],
+    "linebreak-style": ["error", "unix"],
+    "quotes": ["error", "single"],
+    "semi": ["error", "always"],
+    "no-constant-condition": 0,
+    "no-console": 0,
+    "no-tabs": 0,
+    "consistent-return": "warn",
+    "arrow-parens": 0,
+    "no-undef": "error"
+  }
+}
